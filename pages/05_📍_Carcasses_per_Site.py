@@ -24,7 +24,7 @@ tab1, tab2, tab3 = st.tabs(['Bar Chart', 'Line Chart', 'Samburu-Laikipia'])
 
 with tab1:
     st.markdown('Below is a bar chart representing the number of elephant carcasses found per MIKE site. You can hover your mouse over the bars to see the number of carcasses.')
-    st.markdown('Select the checkbox on the left to view the number of illegal elephants found.')
+    st.markdown('Select the checkbox on the left to view the number of illegal elephant carcasses found.')
     st.markdown(" ")
     if button:
         domain = ['Africa', 'Asia']
@@ -74,7 +74,7 @@ with tab1:
 
 with tab2:
     st.markdown('Below is a line chart representing the number of elephant carcasses found per MIKE site.')
-    st.markdown('Select the checkbox on the left to view the number of illegal elephants found.')
+    st.markdown('Select the checkbox on the left to view the number of illegal elephant carcasses found.')
     st.markdown('The following MIKE sites have been preselected to show change over time in the top 3 sites with the most amount of carcasses found: Samburu-Laikipia, Garamba, and Niassa ')
     st.markdown(" ")
 
