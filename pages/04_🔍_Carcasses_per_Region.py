@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from vega_datasets import data
 from PIL import Image
-import geopandas as gpd
-import numpy as np
 
 st.set_page_config(layout="wide")
 
