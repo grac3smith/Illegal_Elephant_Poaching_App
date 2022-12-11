@@ -54,7 +54,7 @@ tab1, tab2, tab3 = st.tabs(['African Countries', 'Asian Countries', 'Line Chart'
 
 with tab1:
     st.markdown('Below is a bar chart representing the number of elephant carcasses found per country in Africa. You can hover your mouse over the red bars to see the number of carcasses.')
-    st.markdown('Select the checkbox on the left to view the number of illegal elephants found.')
+    st.markdown('Select the checkbox on the left to view the number of illegal elephant carcasses found.')
     st.markdown(" ")
 
     if button:
@@ -135,7 +135,7 @@ with tab1:
 
 with tab2:
     st.markdown('Below is a bar chart representing the number of elephant carcasses found per country in Asia.')
-    st.markdown('Select the checkbox on the left to view the number of illegal elephants found.')
+    st.markdown('Select the checkbox on the left to view the number of illegal elephant caracasses found.')
     st.markdown(" ")
 
     if button:
@@ -213,7 +213,7 @@ with tab2:
     st.write("Click through to the **Line Chart** tab to learn more.")
 
 with tab3:
-    st.markdown('Select the checkbox on the left to view the number of illegal elephants found.')
+    st.markdown('Select the checkbox on the left to view the number of illegal elephant carcasses found.')
     st.markdown('Below is a line chart that shows the number of carcasses found per selected country per year. You can use the selectbox below to add and remove any number of countries.')
     st.markdown('Kenya, the Democratic Republic of Congo, the United Republic of Tanzania, and Mozambique have all been preselected in the selectbox to visualize the top 4 countries with the most amount of carcasses found.')
     st.markdown(" ")
