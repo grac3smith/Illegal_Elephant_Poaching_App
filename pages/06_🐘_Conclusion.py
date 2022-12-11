@@ -8,4 +8,4 @@ st.write("Progress has been made in the fight against the illegal ivory trade, h
 
 st.write("Please select the image below to learn more and consider donating to **Save The Elephants**! Thank you!")
 st.markdown('[![Foo](https://d7hftxdivxxvm.cloudfront.net/?height=352&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F97_R1tuVgIu2-L6qSemPMA%2Flarge.jpg&width=640)](https://www.savetheelephants.org)')
-st.caption('Source: Nick Brandt, ELEPHANTS WALKING THROUGH GRASS, AMBOSELI, 2008. LEADING MATRIARCH KILLED BY POACHERS, 2009', unsafe_allow_html=False)
+st.caption('Source: Nick Brandt, Across the Ravaged Land: ELEPHANTS WALKING THROUGH GRASS, AMBOSELI, 2008. LEADING MATRIARCH KILLED BY POACHERS, 2009', unsafe_allow_html=False)
