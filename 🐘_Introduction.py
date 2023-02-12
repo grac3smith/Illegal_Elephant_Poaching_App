@@ -16,7 +16,7 @@ with tab1:
         st.markdown("<h1 style='text-align: center;'>Data Analysis of the CITES MIKE Program Reports</h1>", unsafe_allow_html=True)
         
     with col2:
-        st.image(image, caption="The Monitoring the Illegal Killing of Elephants Logo")
+        st.image(image, caption="Monitoring the Illegal Killing of Elephants Logo")
 
     elephant = Image.open('images/elephant.jpg')
     elephant = elephant.resize((500,650),Image.ANTIALIAS)
