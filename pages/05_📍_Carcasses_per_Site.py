@@ -20,7 +20,7 @@ years = mike['year'].drop_duplicates()
 years_low, years_high = st.sidebar.select_slider('Please Select a Year or Range of Years', options = sorted(years), value=(2000, 2021)) #How to add an empty space as default??
 filtered_data = mike[(mike['year'] >= years_low)&(mike['year'] <= years_high)]
 
-tab1, tab2, tab3 = st.tabs(['Bar Chart', 'Line Chart', 'Samburu-Laikipia'])
+tab1, tab2, tab3 = st.tabs(['Bar Chart', 'Site Exploration', 'Samburu-Laikipia'])
 
 with tab1:
     st.markdown('Below is a bar chart representing the number of elephant carcasses found per MIKE site. You can hover your mouse over the bars to see the number of carcasses.')
