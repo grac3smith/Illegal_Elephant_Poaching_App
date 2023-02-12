@@ -50,7 +50,7 @@ filtered_data3 = asia[(asia['year'] >= years_low)&(asia['year'] <= years_high)]
 
 st.markdown("<h1 style='text-align: center;'>Carcasses per Region</h1>", unsafe_allow_html=True)
 
-tab1, tab2, tab3 = st.tabs(['African Countries', 'Asian Countries', 'Line Chart'])
+tab1, tab2, tab3 = st.tabs(['African Countries', 'Asian Countries', 'Further Exploration'])
 
 with tab1:
     st.markdown('Below is a bar chart representing the number of elephant carcasses found per country in Africa. You can hover your mouse over the red bars to see the number of carcasses.')
