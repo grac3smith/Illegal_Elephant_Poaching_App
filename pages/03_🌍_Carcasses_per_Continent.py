@@ -137,5 +137,5 @@ with tab4:
         fontSize=25)
         st.altair_chart(line2, use_container_width=True)
     
-    st.write("This line chart further refelcts the huge spike in illegal elephant poaching around 2012, specifically in Eastern Africa.")
+    st.write("This line chart further reflects the huge spike in illegal elephant poaching around 2012, specifically in Eastern Africa.")
     st.markdown("The next page will go more in depth on specific countries within these regions.")
